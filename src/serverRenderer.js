@@ -20,6 +20,7 @@ function renderHTML(html, preloadedState) {
             window.PRELOADED_STATE = ${JSON.stringify(preloadedState).replace(/</g, '\\u003c')}
           </script>
           <script src="/js/main.js"></script>
+          <script src="/js/commons.js"></script>
         </body>
       </html>
   `;
